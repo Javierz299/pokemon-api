@@ -3,7 +3,7 @@ import PokeCard from '../PokeCard/PokeCard'
 
 export default function PokeList(props){
     const obj = props.list.sprites
-   console.log(obj)
+   
     
         let normal = "";
         let shiny = ""
@@ -17,8 +17,8 @@ export default function PokeList(props){
                 shiny = `${obj[key]}`
             }
         }
-    console.log(normal)
-    console.log(shiny)
+    // console.log(normal)
+    // console.log(shiny)
       return (
         <div>
             
